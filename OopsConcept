@@ -22,7 +22,7 @@ package com.Assignment;
 
 	{
 
-	    static void overloadedMethod(MainClass a)
+	    static void overloadedMethod(A a)
 
 	    {
 
