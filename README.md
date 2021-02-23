@@ -17,8 +17,8 @@
 					String[] KeyVal=singleKey.split("=");
 					map.put(KeyVal[0], KeyVal[1]);
 				}
-				Set<Entry<String, String>> entrySet=map.entrySet();
-				for(Entry<String,String> entry: entrySet)
+				
+				for(Entry<String,String> entry: map.entrySet())
 				{
 					System.out.println(entry.getKey()+":"+entry.getValue());
 				}
